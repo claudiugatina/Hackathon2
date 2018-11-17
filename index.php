@@ -37,8 +37,8 @@ if(isset($_POST['username'])) {
   }
   </style>
 </head>
-<body>
-<section class="fdb-block" style="background-image: url(https://editor-latest.s3.amazonaws.com/design-blocks/block_images/bg_0.svg)" data-block-type="forms" data-id="1" draggable="true">
+<body >
+<section class="fdb-block" <!--style="background-image:url(https://editor-latest.s3.amazonaws.com/design-blocks/block_images/bg_0.svg)" data-block-type="forms" data-id="1" draggable="true" -->>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-7 col-xl-5 text-center">
@@ -48,7 +48,7 @@ if(isset($_POST['username'])) {
 			<?php if($_SESSION['username']): ?>
             <p>You are logged in as <?=$_SESSION['username']?></p>
             <p><a href="?logout=1">Logout</a></p>
-			<?php endif; ?>
+			<?php endif; ?> 
               <h1>Log In</h1>
             </div>
           </div>

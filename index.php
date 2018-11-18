@@ -46,7 +46,7 @@ if(isset($_POST['username'])) {
           <div class="row">
             <div class="col">
 			<?php if($_SESSION['username']): ?>
-            <p>You are logged in as <?=$_SESSION['username']?></p>
+            <p>Esti logat ca <?=$_SESSION['username']?></p>
             <p><a href="?logout=1">Logout</a></p>
 			<?php endif; ?> 
               <h1>Log In</h1>
@@ -61,12 +61,12 @@ if(isset($_POST['username'])) {
           <div class="row mt-4">
             <div class="col">
               <input type="password" class="form-control mb-1" placeholder="Password" name="password" value="">
-             <!-- <p class="text-right"><a href="https://www.froala.com">Register</a></p> -->
+              <p class="text-right"><a href="register.php">Intregistrare</a></p>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col">
-              <input type="submit" name="submit" value="Submit" />
+              <input type="submit" name="submit" value="Intra" />
             </div>
           </div>
 		  </form>

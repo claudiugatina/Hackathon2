@@ -15,28 +15,23 @@
         <div class="fdb-box fdb-touch">
           <div class="row">
             <div class="col">
-              <h1>Register</h1>
+              <h1>Inregistrare</h1>
             </div>
           </div>
           <div class="row">
             <div class="col mt-4">
-              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" name="username" placeholder="Nume">
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="password" class="form-control mb-1" name="password_1"placeholder="Parola">
+              <p class="text-right"><a href="index.php">Ai deja cont?</a></p>
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <input type="password" class="form-control mb-1" placeholder="Password">
-              <p class="text-right"><a href="https://www.froala.com">Already have an account?</a></p>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <button class="btn" type="button">Submit</button>
+              <button class="btn" type="button">Inregistreaza-te</button>
             </div>
           </div>
         </div>

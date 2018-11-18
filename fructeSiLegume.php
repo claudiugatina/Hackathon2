@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="body.css">
 <link rel="stylesheet" href="responsive.css">
 <link rel="shortcut icon" href="/doctor.jpg"/>
+<style type="text/css">
+body {
+  font-size: 150%;
+}
+</style>
 
 </head>
 <body>

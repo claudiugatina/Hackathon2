@@ -35,6 +35,7 @@ if(isset($_POST['username'])) {
   body{
 	  overflow:hidden;
     background-color: #BBBBFFFF;
+    font-size: 150%;
   }
   </style>
 </head>

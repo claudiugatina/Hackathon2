@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="body.css">
 <link rel="stylesheet" href="responsive.css">
 <link rel="shortcut icon" href="/doctor.jpg"/>
+<style type="text/css">
+body {
+  font-size: 150%;
+}
+</style>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -68,8 +73,6 @@ window.onload = initVis;
   <div id="text4"><p><?php include('doctor/text4.txt'); ?></p></div>
   <div id="text5"><p><?php include('doctor/text5.txt'); ?></p></div>
   <div id="text6"><p><?php include('doctor/text6.txt'); ?></p></div>
-  <form onSubmit="WriteToFile(this)">
-    <input type="text" name="FirstName" id="firstName" size="20">
 </div>
 </div>
 

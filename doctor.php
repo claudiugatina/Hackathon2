@@ -52,11 +52,7 @@ window.onload = initVis;
 
 <div class="row">
 
-<div class="col-3 menu">
-  <ul>
-    <a href="/site.html"><li>Acasa</li></a>
-  </ul>
-</div>
+<div><p><?php include('meniu.html'); ?></p></div>
 
 <div class="col-9">
 <button class="btn1">Animate</button>
@@ -72,7 +68,8 @@ window.onload = initVis;
   <div id="text4"><p><?php include('doctor/text4.txt'); ?></p></div>
   <div id="text5"><p><?php include('doctor/text5.txt'); ?></p></div>
   <div id="text6"><p><?php include('doctor/text6.txt'); ?></p></div>
-  
+  <form onSubmit="WriteToFile(this)">
+    <input type="text" name="FirstName" id="firstName" size="20">
 </div>
 </div>
 

@@ -48,19 +48,7 @@
 
 <div class="row">
 
-<div class="col-3 menu">
-  <ul id="myMenu">
-    <li><input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category"></li>
-    <a href="/doctor.php"><li>Doctorul</li></a>
-    <a href="/fructeSiLegume.php"><li>De ce trebuie sa mancam fructe si legume?</li></a>
-    <a href="/raceala.php"><li>Raceala</li></a>
-    <a href="#"><li>Rujeola</li></a>
-	  <a href="#"><li>Varicela</li></a>
-	<!--<li><a href="/contact.html">Contact</a></li> -->
-	
-	
-  </ul>
-</div>
+<div><p><?php include('meniu.html'); ?></p></div>
 
 <div class="col-9">
   <h1>Bine ati venit </h1>
@@ -75,24 +63,6 @@
 </div>
 
 </div>
-
-<script>
-function myFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("mySearch");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myMenu");
-    li = ul.getElementsByTagName("a");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("li")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script>
 
 </body>
 </html>

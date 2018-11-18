@@ -4,7 +4,7 @@ session_start();
 $userinfo = array(
                 'user1'=>'password1',
                 'user2'=>'password2',
-				'alexandra' => '1234'
+				        'alexandra' => '1234'
                 );
 
 if(isset($_GET['logout'])) {
@@ -14,7 +14,7 @@ if(isset($_GET['logout'])) {
 
 if(isset($_POST['username'])) {
     if($userinfo[$_POST['username']] == $_POST['password']) {
-        $_SESSION['username'] = $_POST['username'];header('location: site.html');
+        $_SESSION['username'] = $_POST['username'];header('location: site.php');
     }else {
         //Invalid Login
     }

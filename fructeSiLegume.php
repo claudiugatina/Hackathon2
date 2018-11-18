@@ -38,11 +38,7 @@ window.onload = initVis;
 
 <div class="row">
 
-<div class="col-3 menu">
-  <ul>
-    <a href="/site.html"><li>Acasa</li></a>
-  </ul>
-</div>
+<div><p><?php include('meniu.html'); ?></p></div>
 
 <div class="col-9">
   <h1>De ce trebuie sa mancam fructe si legume ? </h1>

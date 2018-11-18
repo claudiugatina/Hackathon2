@@ -34,11 +34,12 @@ if(isset($_POST['username'])) {
   <style type="text/css">
   body{
 	  overflow:hidden;
+    background-color: #BBBBFFFF;
   }
   </style>
 </head>
 <body >
-<section class="fdb-block" <!--style="background-image:url(https://editor-latest.s3.amazonaws.com/design-blocks/block_images/bg_0.svg)" data-block-type="forms" data-id="1" draggable="true" -->>
+<section class="fdb-block"  data-block-type="forms" style=" background-color: #BBBBFFFF;" data-id="1" draggable="true">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-7 col-xl-5 text-center">

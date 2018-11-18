@@ -55,10 +55,10 @@ window.onload = initVis;
   <div id="text5"><p><?php include('fructeSiLegume/text5.txt'); ?></p></div>
   <div id="text6"><p><?php include('fructeSiLegume/text6.txt'); ?></p></div>
   <div id="text7"><p><?php include('fructeSiLegume/text7.txt'); ?></p></div>
+  <img src="gifs/dancingFruit.gif", id="nextBtn" onclick="nextSection()" align="center">
   </div>
 
 </div>
-  <button onclick="nextSection()" id="nextBtn">next</button>  
   
 </script>
 
